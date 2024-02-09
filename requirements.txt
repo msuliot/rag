@@ -1,0 +1,17 @@
+# requirements file
+# note which revision of python, for example 3.9.6
+
+python-dotenv
+numpy
+pandas
+openai
+tqdm
+datasets
+pinecone-client
+pinecone-datasets
+pinecone-text
+gradio
+beautifulsoup4 
+pyarrow 
+lxml
+requests
