@@ -2,9 +2,9 @@ import os
 import pandas as pd
 from dotenv import load_dotenv, find_dotenv
 import gradio as gr
-from pinecone_logic import delete_pinecone_index, get_pinecone_index, upsert_data
-from data_prep import import_csv, clean_data_pinecone_schema, generate_embeddings_and_add_to_df
-from openai_logic import get_embeddings, create_prompt, add_prompt_messages, get_chat_completion_messages, create_system_prompt
+from utils.pinecone_logic import delete_pinecone_index, get_pinecone_index, upsert_data
+from utils.data_prep import import_csv, clean_data_pinecone_schema, generate_embeddings_and_add_to_df
+from utils.openai_logic import get_embeddings, create_prompt, add_prompt_messages, get_chat_completion_messages, create_system_prompt
 import sys
 
 # load environment variables
