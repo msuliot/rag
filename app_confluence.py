@@ -300,7 +300,7 @@ def main():
     #Fetch pages on limit occurance
     all_pages = []
     start = 0
-    limit = 230
+    limit = 25
     csv_file = './data/kb.csv'
     
     print("Fetching pages...")

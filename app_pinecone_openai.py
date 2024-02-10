@@ -30,7 +30,7 @@ def main(query):
     
     model_for_openai_embedding="text-embedding-3-small"
     model_for_openai_chat="gpt-3.5-turbo"
-    index_name = "demo-kb-index"
+    index_name = "demo-michael-ai"
     csv_file = './data/kb.csv'
     # query = "This is where I put a question if I'm Testing?"
 
@@ -69,7 +69,7 @@ def main(query):
 
 
 if __name__ == "__main__":
-    main("hello, how are you?")
+    main("What is your contact information?")
 
 
 # #create Gradio interface for the chatbot
