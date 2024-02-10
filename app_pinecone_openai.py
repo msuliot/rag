@@ -29,7 +29,7 @@ def main(query):
     print("Start: Main function")
     
     model_for_openai_embedding="text-embedding-3-small"
-    model_for_openai_chat="gpt-3.5-turbo"
+    model_for_openai_chat="gpt-3.5-turbo-0125"
     index_name = "demo-michael-ai"
     csv_file = './data/kb.csv'
     # query = "This is where I put a question if I'm Testing?"
