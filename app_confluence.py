@@ -200,33 +200,6 @@ def fetch_all_pages(all_pages, start, limit, max_chunk_size=200):
     return all_pages
 
 
-
-
-# # Function to fetch all pages
-# def fetch_all_pages(all_pages, start, limit):
-#     if not isinstance(all_pages, list):
-#         print("Error: 'all_pages' must be a list.")
-#         return None
-
-#     while True:
-#         response_data = fetch_pages(start, limit)
-#         if response_data:
-#             results = response_data.get('results')
-#             if results is not None:
-#                 all_pages.extend(results)
-#                 if len(results) < limit:
-#                     break  # Break the loop if the number of results is less than the limit
-#                 start += limit
-#             else:
-#                 print("Warning: No results found in the response.")
-#                 break
-#         else:
-#             print("Error: Failed to fetch pages.")
-#             return None
-
-#     return all_pages
-
-
 # Function to delete internal_only records
 def delete_internal_only_records(df):
     # Ensure df is a pandas DataFrame
