@@ -72,4 +72,4 @@ python app_pinecone_openai.py
 - **RAG Flow Chart**: Please refer to the `rag_flowchart.png` in the repository for a visual representation of the system workflow.
 ![RAG Flow Chart](rag_flowchart.png "Retrieval Augmented Generation Flow Chart")
 
-# Thank you and happy coding!
+## Thank you and happy coding!
