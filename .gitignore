@@ -160,6 +160,5 @@ cython_debug/
 #.idea/
 .DS_Store
 data/kb.csv
-data/demo.csv
-data/backup/kb_25_demo.csv
-data/backup/kb_222_demo.csv
+backup/kb_25_demo.csv
+backup/kb_222_demo.csv
